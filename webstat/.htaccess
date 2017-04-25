@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/znak_jakosti.lemon.ua/webstat"
+AuthUserFile /var/www/znak_jakosti/data/etc/8126522.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>

@@ -1,0 +1,157 @@
+@media (max-width: 768px) {
+    .text-align-right {
+        /*text-align: left;*/
+    }
+
+    .logo {
+        margin: 0 auto 20px auto;
+    }
+
+    #search-form {
+        width: calc(100% - 130px);
+    }
+
+    .btn-menu {
+        display: block;
+    }
+
+    .menu-left {
+        clear: both;
+        display: none;
+    }
+
+    .header-margin {
+        margin: 25px 0 0 0;
+    }
+
+    .menu > li:last-child {
+        border-bottom: none;
+    }
+
+    .recommend-header:after, .recommend-header:before, .h1-clients:after, .h1-clients:before, .h1-znak:after, .h1-znak:before, .news-header:after, .news-header:before {
+        display: none;
+    }
+
+    footer ul {
+        display: none;
+    }
+
+    footer h5 {
+        cursor: pointer;
+    }
+
+    .product-text {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .img-product {
+        min-height: inherit;
+        padding-bottom: 85%;
+    }
+
+    .product-text > div {
+        padding: 25px 20px 0 20px;
+    }
+
+    .menu > li {
+        float: none;
+    }
+
+    .menu > li {
+        border-bottom: 2px solid white;
+    }
+
+    .menu > li > a {
+        text-align: left;
+    }
+
+    .menu > li:last-child {
+        border-bottom: none;
+    }
+
+    .menu li > a {
+        padding: 15px 0 15px 10px;
+    }
+
+    .main-menu > .container {
+        padding: 0;
+    }
+
+    .first {
+        top: inherit;
+    }
+
+    .first > li {
+        width: 50%;
+    }
+
+    .menu-left > li {
+        float: none;
+    }
+
+    .profile-menu > li {
+        display: block;
+    }
+
+    .profile-menu > li:first-child {
+        padding: 10px;
+    }
+
+    .menu-date-right {
+        display: table;
+        margin: 15px auto;
+        width: 90%;
+        left: 0;
+    }
+
+    .second {
+        width: 90%;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .hide-400 {
+        display: none;
+    }
+
+    .menu-date > li {
+        display: block;
+    }
+
+    .news-banner-text > h1 {
+        font-size: 23px;
+    }
+
+    .table-cell {
+        display: block;
+    }
+
+    .img-product + div {
+        height: 110px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .product-text > div {
+        padding: 25px 30px 0 30px;
+    }
+
+    .menu li > a {
+        padding: 15px 8px;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .menu li > a {
+        padding: 15px 25px;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1680px) {
+
+}
